@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gregorian1A/dao_search_app/static/css/main.10cdb160.css",
-    "main.js": "/gregorian1A/dao_search_app/static/js/main.0939ac45.js",
+    "main.js": "/gregorian1A/dao_search_app/static/js/main.902d2807.js",
     "static/js/787.514dc25a.chunk.js": "/gregorian1A/dao_search_app/static/js/787.514dc25a.chunk.js",
     "index.html": "/gregorian1A/dao_search_app/index.html",
     "main.10cdb160.css.map": "/gregorian1A/dao_search_app/static/css/main.10cdb160.css.map",
-    "main.0939ac45.js.map": "/gregorian1A/dao_search_app/static/js/main.0939ac45.js.map",
+    "main.902d2807.js.map": "/gregorian1A/dao_search_app/static/js/main.902d2807.js.map",
     "787.514dc25a.chunk.js.map": "/gregorian1A/dao_search_app/static/js/787.514dc25a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10cdb160.css",
-    "static/js/main.0939ac45.js"
+    "static/js/main.902d2807.js"
   ]
 }
