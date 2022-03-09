@@ -1,6 +1,5 @@
-
 import React from "react";
-import { StaticRouter, BrowserRouter } from "react-router-dom";
+import { StaticRouter, HashRouter } from "react-router-dom";
 import ReactDOM from 'react-dom';
 import App from './App.js';
 import reportWebVitals from './reportWebVitals';
@@ -13,9 +12,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
