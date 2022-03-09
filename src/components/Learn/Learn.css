@@ -1,0 +1,25 @@
+.learn {
+    margin-top: 70px;
+    margin-left: 485px;
+}
+
+.learn h1 {
+    color: black;
+}
+
+.learn p {
+    margin-top: 200px;
+}
+
+@media (max-width: 1023px) {
+    .learn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 0px auto;
+        overflow-x: hidden;
+        height: 100%;
+        padding: 0;
+    }
+}

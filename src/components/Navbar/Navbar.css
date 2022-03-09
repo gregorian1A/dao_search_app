@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    background: black;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99; 
+}
+
+.logo {
+    display: flex;
+    padding-left: 15px;
+}
+
+.fa-grav {
+  padding-left: 5px;
+}
+
+.connect-wallet {
+   border-radius: 10px;
+   border: 1px solid black;
+    margin-right: 15px;
+    height: 40px;
+    padding: 3px 12px;
+    font-size: 17px;
+    background: #832345;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 250px) and (max-width: 767px) {
+    .navbar {
+        width: 100vw;
+        height: 50px;
+        justify-content: space-evenly;
+        position: fixed;
+      }
+      h2.logo {
+        font-size: 13px;
+        padding-left: 2px;
+        margin-left: 0;
+      }
+      .fa-grav {
+        display: none;
+      }
+      .connect-wallet {
+        margin: 0;
+        font-size: 10px;
+        padding: 8px;
+        height: 30px
+      }
+      .searchbar {
+        padding: 5px;
+        font-size: 14px;
+        margin: 0;
+        width: 85px;
+      }
+    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar {
+        height: 70px;
+        justify-content: space-evenly;
+        position: fixed;
+      }
+      h2.logo {
+        font-size: 18px;
+        padding-left: 2px;
+        margin-left: 0;
+      }
+      .fa-grav {
+        display: none;
+      }
+      .connect-wallet {
+        margin: 0;
+        font-size: 17px;
+        padding: 8px;
+        height: 50px
+      }
+      .searchbar {
+        padding: 5px;
+        font-size: 14px;
+        margin: 0;
+        width: 40%;
+      }
+    }

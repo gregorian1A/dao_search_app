@@ -1,0 +1,30 @@
+.searchbar {
+    margin: 0;
+ }
+ 
+ .searchbar input {
+     width: 600px;
+     padding: 10px 5px;
+     font-size: 17px;
+     outline: none;
+     margin: 10px 0;
+ }
+ 
+ @media screen and (min-width: 250px) and (max-width: 767px) {
+      .searchbar input {
+        padding: 5px;
+        font-size: 14px;
+        margin: 0;
+        width: 85px;
+      }
+    }
+
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+      .searchbar input {
+        padding: 5px;
+        font-size: 17px;
+        margin: 0;
+        width: 100%;
+      }
+    }
+ 
